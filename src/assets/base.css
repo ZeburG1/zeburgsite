@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-image: url("../assets/images/cosmos.jpg");
+}
+
+@keyframes back-anim {
+    0% {
+      background-position: center;
+    }
+    50% {
+      background-position: 15px;
+    }
+    100% {
+      background-position: center;
+    }
+  }
+
+@media (prefers-reduced-motion) {
+    html {
+      animation: back-anim 25s forwards infinite ease-in-out;
+    }
+  }
