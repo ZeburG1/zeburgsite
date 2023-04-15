@@ -1,7 +1,7 @@
 <template>
     <div class="main-container">
-        <h1 class="work">Page Not found</h1>
         <router-link to="/"><img class="arrow" src="../assets/icons/left-arrow.png"></router-link>
+        <h1 class="work">Page Not found</h1>
     </div>
 </template>
 
@@ -32,8 +32,27 @@ cursor: pointer;
     transform: scale(1.2);
 }
 @media screen and (max-width: 700px) {
-    .container {
-        font-size: 1.5rem;
+    .main-container {
+        font-size: 2rem;
+    }
+    .work {
+        display: flex;
+        width: 100%;
+        height: 70px;
+        color: White;
+        cursor: default;
+        text-shadow: 15px 10px 10px black;
+        font-size: 30px;
+        margin-top: 15%;
+        margin-left: 10%;
+    }
+    .arrow {
+        width: 22px;
+        height: 22px;
+        transition: 0.3s;
+    }
+    .arrow:hover {
+        transform: scale(1.2);
     }
 }
 </style>

@@ -191,7 +191,7 @@ const programs = ref([
     transform: scale(1.2);
 }
 .main-container {
-    height: calc(100vh - 14rem);
+    height: calc(150vh - 14rem);
     font-size: 1.5rem;
     margin-top: 100px;
 }
@@ -253,9 +253,114 @@ const programs = ref([
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 @media screen and (max-width: 700px) {
-    .container {
-        font-size: 1.4rem;
+    .skill-container { 
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-bottom: 10px;
+    }
+    .skill-container > a {
+        border-radius: 12px;
+        width: 40px;
+        height: 40px;
+        transition: all 0.3s;
+        margin-left: 5px;
+    }
+    .skill-container > a > img {
+        width: 35px;
+        height: 35px;
+        transition: all 0.3s;
+        border-radius: 12px;
+    }
+    .skill-container > a > img:hover {
+        box-shadow: 0px 0px 10px 10px rgba(255, 255, 255,1);
+        transform: scale(1.2);
+    }
+
+    .program-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    .program-container > a {
+        border-radius: 12px;
+        width: 40px;
+        height: 40px;
+        transition: all 0.3s;
+        margin-left: 5px;
+    }
+
+    .program-container > a > img {
+        width: 35px;
+        height: 35px;
+        transition: all 0.3s;
+        border-radius: 12px;
+    }
+    .program-container > a > img:hover {
+        
+        box-shadow: 0px 0px 10px 10px rgba(255, 255, 255,1);
+        transform: scale(1.2);
+    }
+    .arrow {
+        width: 22px;
+        height: 22px;
+        display: flex;
+        margin-top: 15px;
+        margin-left: 15px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .arrow:hover {
+        transform: scale(1.2);
+    }
+    .main-container {
+        height: calc(100vh - 14rem);
+        font-size: 1.5rem;
+        margin-top: 0px;
+    }
+    #Info {
+        width: 100%;
+        margin: auto;
+        transition: 2s;
+    }
+    .Info-wrapper {
+        width: 100%;
+        height: 100%;
+        margin-left: 20px;
+        margin-top: 3vh;
+    }
+    .main-info {
+        color: white;
+        text-shadow: 15px 10px 10px black;
+        cursor: default;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    .add-info {
+        color: white;
+        text-shadow: 15px 10px 10px black;
+        cursor: default;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    .main-table {
+        color: white;
+        display: block;
+        font-size: 15px;
+    }
+    .languages {
+        color: white;
+        text-shadow: 15px 10px 10px black;
+        cursor: default;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .programs {
+        color: white;
+        text-shadow: 15px 10px 10px black;
+        cursor: default;
+        margin-bottom: 20px;
+        font-size: 15px;
     }
 }
-/* eslint-disable */
 </style>

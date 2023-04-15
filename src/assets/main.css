@@ -1,9 +1,1 @@
 @import './base.css';
-
-header {
-    backdrop-filter: blur(0.2rem);
-}
-
-footer {
-    backdrop-filter: blur(0.2rem);
-}

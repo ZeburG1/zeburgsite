@@ -32,8 +32,32 @@
     transform: scale(1.2);
 }
 @media screen and (max-width: 700px) {
-    .container {
-        font-size: 1.5rem;
+    .main-container {
+        font-size: 2rem;
+    }
+    .work {
+        display: flex;
+        height: 70px;
+        color: White;
+        cursor: default;
+        text-shadow: 15px 10px 10px black;
+        font-size: 40px;
+        margin-top: 7%;
+        margin-left: 10%;
+        font-weight: bolder;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .arrow {
+        width: 22px;
+        height: 22px;
+        display: flex;
+        padding-top: 30px;
+        margin-left: 30px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .arrow:hover {
+        transform: scale(1.2);
     }
 }
 /* eslint-disable */

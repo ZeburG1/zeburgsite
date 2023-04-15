@@ -81,4 +81,65 @@
     transition: 0.8s;
     transform: translateX(-1000px);
 }
+@media screen and (max-width: 700px) {
+    
+    #app {
+        height: 100%;
+    }
+    
+    .header {
+        width: 100%;
+        height: 60px;
+        background-color: rgb(22, 22, 22);
+        display: flex;
+    }
+    .ZeburG-icon {
+        width: 32px;
+        margin-left: 15px;
+        margin-top: 15px;
+        transition: 0.1s;
+    }
+    .ZeburG-icon:hover {
+        transform: rotate(-10deg);
+    }
+
+    .footer {
+        widows: 100%;
+        height: 60px;
+        box-shadow: 0px -1px 10px white;
+        background-color: rgb(22, 22, 22);
+    }
+    .footer-content {
+        display: flex;
+        float: left;
+        margin-left: 5px;
+    }
+    .footer-icons {
+        
+        margin-top: -10%;
+        margin-left: 25px;
+    }
+    .icon {
+        width: 25px;
+        height: 25px;
+        transition: 0.5s;
+    }
+    .icon:hover {
+        transform: scale(1.1);
+    }
+    .slide-enter-active{
+        transition: 0.7s;
+    } 
+    .slide-leave-active {
+        transition: 0.8s;
+    }
+    .slide-enter-from{
+        transition: 0.8s;
+        transform: translateX(-700px);
+    }
+    .slide-leave-to {
+        transition: 0.8s;
+        transform: translateX(-1000px);
+    }
+}
 </style>

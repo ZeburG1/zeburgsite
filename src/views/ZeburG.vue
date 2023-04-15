@@ -11,12 +11,6 @@
 </template>
 
 <style scoped>
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
-}
-.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
-  opacity: 0;
-}
 .main-container {
     display: flex;
     flex-direction: column;
@@ -27,10 +21,9 @@
     font-size: 2rem;
 }
 .main-container-center {
-    width: 500px;
-    height: 250px;
-    display: grid;
-    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-left: 150px;
     margin-top: 20vh;
 }
@@ -76,9 +69,69 @@ li {
     cursor: pointer;
 }
 
-@media screen and (max-width: 400px) {
-    .main-container {
-        font-size: 1rem;
+@media screen and (max-width: 700px) {
+    .main-container {   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: calc(65vh - 1rem);
+        font-size: 2rem;
+        margin-left: 10%;
+        margin: 0;
+    }
+    .main-container-center {
+        display: grid;
+        float: left;
+        margin-top: 3vh;
+        margin: 0;
+    }
+    .welcome {
+        width: 100px;
+        height: 50px;
+        color: White;
+        cursor: default;
+        margin-left: 10%;
+        font-size: 40px;
+    }
+    .puncts {
+        color: White;
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        cursor: pointer;
+    }
+    .punct {
+        width: fit-content;
+        color: White;
+        height: fit-content;
+        margin-bottom: 30px;
+        text-shadow: 15px 7px 7px black;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    .hrefs {
+        text-decoration: none;
+        cursor: pointer;
+    }
+    li {
+        transition: all 0.3s ease-in-out;
+        list-style-type: none;
+    }
+    .punct:hover {
+        text-shadow: 15px 12px 12px black;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 300px) {
+.welcome {
+        width: 100px;
+        height: 50px;
+        color: White;
+        cursor: default;
+        margin-left: 12%;
+        font-size: 40px;
     }
 }
 </style>
