@@ -76,11 +76,9 @@ li {
     cursor: pointer;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 400px) {
     .main-container {
-        font-size: 2.4rem;
-        padding: 0;
+        font-size: 1rem;
     }
 }
-/* eslint-disable */
 </style>
