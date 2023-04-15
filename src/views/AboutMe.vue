@@ -135,6 +135,7 @@ const programs = ref([
 
 .skill-container {
     display: inline-flex;
+    flex-wrap: wrap;
     gap: 0.8rem;
     margin-bottom: 20px;
 }
@@ -193,7 +194,7 @@ const programs = ref([
 .main-container {
     height: calc(150vh - 14rem);
     font-size: 1.5rem;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 #Info {
     width: 100%;
@@ -264,7 +265,7 @@ const programs = ref([
         width: 40px;
         height: 40px;
         transition: all 0.3s;
-        margin-left: 5px;
+        margin-left: 6px;
     }
     .skill-container > a > img {
         width: 35px;
@@ -273,7 +274,7 @@ const programs = ref([
         border-radius: 12px;
     }
     .skill-container > a > img:hover {
-        box-shadow: 0px 0px 10px 10px rgba(255, 255, 255,1);
+        box-shadow: 0px 0px 10px 10px white;
         transform: scale(1.2);
     }
 
@@ -287,7 +288,7 @@ const programs = ref([
         width: 40px;
         height: 40px;
         transition: all 0.3s;
-        margin-left: 5px;
+        margin-left: 6px;
     }
 
     .program-container > a > img {
@@ -298,7 +299,7 @@ const programs = ref([
     }
     .program-container > a > img:hover {
         
-        box-shadow: 0px 0px 10px 10px rgba(255, 255, 255,1);
+        box-shadow: 0px 0px 10px 10px white;
         transform: scale(1.2);
     }
     .arrow {

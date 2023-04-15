@@ -77,7 +77,9 @@ li {
         width: 100%;
         height: calc(65vh - 1rem);
         font-size: 2rem;
-        margin-left: 10%;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-right: 0;
         margin: 0;
     }
     .main-container-center {
