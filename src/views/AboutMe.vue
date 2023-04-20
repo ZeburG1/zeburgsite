@@ -192,7 +192,7 @@ const programs = ref([
     transform: scale(1.2);
 }
 .main-container {
-    height: calc(150vh - 14rem);
+    height: calc(105vh - 14rem);
     font-size: 1.5rem;
     margin-top: 40px;
 }
