@@ -19,7 +19,7 @@ const routes = [
         name: "MyWorks",
         component: ()=>import("@/views/MyWorks.vue"),
         meta: {
-            title: "MyWork's"
+            title: "MyWork's | ZeburG"
         }
     },
     {

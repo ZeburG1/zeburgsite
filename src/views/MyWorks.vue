@@ -2,18 +2,14 @@
     <div class="main-container">
         <router-link to="/" ><img class="arrow" src="../assets/icons/left-arrow.png"></router-link>
         <div class="cont">
-            <h1 class="work">My works:</h1>
-            <div class="works-container">
-                
-            </div>
+            <h1 class="work">In progress...</h1>
         </div>
     </div>
 </template>
-<!-- <a href="https://www.moddb.com/members/zeburg/addons" target="_blank"><img src="../assets/icons/moddb.png" title='to view it, you need to register on moddb'></a> -->
 <style scoped>
 .main-container {
     width: 100%;
-    height: calc(60vh - 14rem);
+    height: calc(100vh - 14rem);
     font-size: 1.5rem;
     margin-top: 40px;
 }
@@ -23,6 +19,8 @@
 }
 .work {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 70px;
     color: White;
     cursor: default;
@@ -44,12 +42,6 @@
 .arrow:hover {
     transform: scale(1.2);
 }
-.works-container {
-    width: 400px;
-    height: 300px;
-}
-
-
 
 
 @media screen and (max-width: 700px) {

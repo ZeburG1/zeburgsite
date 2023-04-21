@@ -1,0 +1,9 @@
+{
+    "version": "1.2",
+    "api_version": 3,
+    "layout": {
+        "logo": "../src/assets/icons/icon_256x256.png",
+        "color": "#222222",
+        "show_title": false
+    }
+ }
