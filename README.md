@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="/public/favicon.ico" />
+  <img src="/public/manifest.png" />
 </p>
