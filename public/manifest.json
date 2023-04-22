@@ -2,7 +2,7 @@
     "version": "1.2",
     "api_version": 3,
     "layout": {
-        "logo": "../src/assets/icons/icon_256x256.png",
+        "logo": "https://github.com/ZeburG1/zeburgsite/raw/master/public/favicon.ico",
         "color": "#222222",
         "show_title": false
     }
