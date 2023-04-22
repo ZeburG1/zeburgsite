@@ -2,7 +2,7 @@
     "version": "1.2",
     "api_version": 3,
     "layout": {
-        "logo": "https://zebur-g.vercel.app/img/icon_64x64.ccfea681.png",
+        "logo": "/manifest.png",
         "color": "#222222"
     }
 }
