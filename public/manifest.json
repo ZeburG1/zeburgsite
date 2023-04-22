@@ -1,9 +1,9 @@
 {
-    "version": "1.0",
+    "version": "1.5",
     "api_version": 3,
     "layout": {
         "logo": "/manifest.png",
         "color": "#222222",
         "show_title": false
     }
- }
+}
