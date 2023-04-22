@@ -20,9 +20,9 @@
 <!-- Footer -->
 <footer class="footer">
     <div class="footer-content">
-        <a class="footer-icons" href="https://github.com/ZeburG1"><img class="icon" src="../src/assets/icons/github-icon.webp"></a>
-        <a class="footer-icons" href="https://discordapp.com/users/299807775326732288/"><img class="icon" src="../src/assets/icons/discord-icon.webp"></a>
-        <!-- <img style="width: 0px; height: 0px;" src="../public/manifest.png">  -->
+        <a class="footer-icons" href="https://github.com/ZeburG1"><img class="icon" src="../src/assets/icons/github-icon.webp" alt="MyGithub"></a>
+        <a class="footer-icons" href="https://discordapp.com/users/299807775326732288/"><img class="icon" src="../src/assets/icons/discord-icon.webp"  alt="MyDiscord"></a>
+        <img style="width: 0px; height: 0px;" src="../public/manifest.png"> 
     </div>
 </footer>
 </template>
