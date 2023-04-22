@@ -2,8 +2,7 @@
     "version": "1.2",
     "api_version": 3,
     "layout": {
-        "logo": "https://zebur-g.vercel.app/img/manifest.c1abc2a6.png",
-        "color": "#222222",
-        "show_title": none
+        "logo": "https://zebur-g.vercel.app/img/manifest.35ff49cb.png",
+        "color": "#222222"
     }
 }
