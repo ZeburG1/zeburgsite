@@ -4,6 +4,6 @@
     "layout": {
         "logo": "https://zebur-g.vercel.app/img/manifest.c1abc2a6.png",
         "color": "#222222",
-        "show_title": false
+        "show_title": none
     }
 }
